@@ -7,7 +7,7 @@ Release:          1
 Summary:          Cox models by likelihood based boosting for a single survival endpoint or competing risks
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              None
+URL:              http://cran.r-project.org/web/packages/CoxBoost/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/CoxBoost/CoxBoost_1.2-1.tar.gz
 Requires:         R-survival R-Matrix 
 Requires:         R-snowfall R-multicore 
