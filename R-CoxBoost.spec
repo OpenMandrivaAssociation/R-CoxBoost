@@ -12,7 +12,7 @@ Source0:          http://cran.r-project.org/src/contrib/Archive/CoxBoost/CoxBoos
 Requires:         R-survival R-Matrix 
 Requires:         R-snowfall R-multicore 
 BuildRequires:    Rmath-devel texlive-collection-latex R-survival R-Matrix
-BuildRequires:   R-snowfall R-multicore 
+BuildRequires:    R-snowfall R-multicore 
 %rename R-cran-CoxBoost
 
 %description
@@ -35,12 +35,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 
 %files
 %dir %{rlibdir}/%{packname}
-%doc %{rlibdir}/%{packname}/doc
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/DESCRIPTION
-%doc %{rlibdir}/%{packname}/NEWS
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
+%{rlibdir}/%{packname}/libs
