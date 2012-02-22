@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-survival R-Matrix 
-Requires:         R-snowfall R-multicore 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival R-Matrix
-BuildRequires:    R-snowfall R-multicore 
+Requires:         R-survival R-Matrix R-snowfall R-multicore
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
+BuildRequires:    R-Matrix R-snowfall R-multicore
 %rename R-cran-CoxBoost
 
 %description
