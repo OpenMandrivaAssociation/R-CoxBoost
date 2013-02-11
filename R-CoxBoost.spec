@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          1.3
 Release:          2
-Summary:          Cox models by likelihood based boosting for a single survival endpoint or competing risks
+Summary:          Cox models by likelihood based boosting
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
