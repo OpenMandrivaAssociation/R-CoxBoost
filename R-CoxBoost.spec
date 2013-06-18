@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3
-Release:          2
+Release:          3
 Summary:          Cox models by likelihood based boosting
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
