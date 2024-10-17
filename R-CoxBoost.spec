@@ -7,7 +7,7 @@ Release:          3
 Summary:          Cox models by likelihood based boosting
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-survival R-Matrix R-snowfall R-multicore
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
